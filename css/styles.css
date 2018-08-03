@@ -1,14 +1,21 @@
 .jumbotron {
-  height: 200px;
+  height: 140px;
   padding: 20px;
+  white-space: nowrap;
 }
 
-.jumbotrontext {
-  float: left;
+#headertext {
+  margin-top: 10px;
+  margin-left: 120px;
+  line-height: 10px;
 }
 
 #AJpic {
   border-radius: 50%;
-  float: right;
-  height:100%;
+  float: left;
+  height: 100px;
+}
+
+.jobtitle {
+  color: red;
 }
