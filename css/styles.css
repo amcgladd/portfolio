@@ -31,8 +31,15 @@
 }
 
 #about_container {
-  border-bottom: 1px solid black;
   margin-bottom: 10px;
+}
+
+.section_title {
+  border-bottom: 1px solid lightgrey;
+}
+
+.projects a {
+  font-size: 18px;
 }
 
 .education li {
