@@ -10,10 +10,10 @@ _This website describes AJ Mcgladdery and his coding work. It contains an image,
 
 ## Setup/Installation Requirements
 
-* _To view repository, open the following in a browser: _
+* _To view repository, open the following in a browser:_
 * _https://github.com/amcgladd/portfolio.git_
 * _GITHUB Pages link:_
-* _amcgladd.github.io/portfolio_
+* _https://amcgladd.github.io/portfolio_
 
 
 ## Known Bugs
@@ -33,8 +33,6 @@ _Bootstrap_
 ### License
 
 *MIT License
-
-Copyright (c) [2018] [Aj Mcgladdery]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
