@@ -17,12 +17,22 @@
   height: 100px;
 }
 
+.projects p {
+  font-size: 16px;
+}
+
 .jobtitle {
   color: #428bca;
 }
 
 .container {
   margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+#about_container {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
 }
 
 .education li {
