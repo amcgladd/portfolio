@@ -1,6 +1,14 @@
+.jumbotron {
+  height: 200px;
+  padding: 20px;
+}
+
+.jumbotrontext {
+  float: left;
+}
+
 #AJpic {
   border-radius: 50%;
-  float: left;
-  width:100px;
-  height:100px;
+  float: right;
+  height:100%;
 }
