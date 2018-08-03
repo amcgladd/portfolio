@@ -18,9 +18,21 @@
 }
 
 .jobtitle {
-  color: red;
+  color: #428bca;
 }
 
 .container {
   margin-top: 20px;
+}
+
+.education li {
+  font-size: 18px;
+}
+
+.experience li {
+  font-size: 15px;
+}
+
+.hobbies li {
+  font-size: 20px;
 }
