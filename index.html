@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <!--Reference to Boostrap CDN-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <!--Reference to custom CSS stylesheet-->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
@@ -20,45 +21,70 @@
     </div>
 
     <!--Projects Section-->
-    <h2>Projects</h2>
-    <ul>
-      <!--Project: Cupcake-->
-      <li><a href="https://github.com/amcgladd/cupcake-shop">Cupcake Shop</a></li>
-      <p>A website for a cupcake shop showcasing CSS classes</p>
+    <div class="card" id="project_container">
+      <div class="card-body">
+        <h2>Projects</h2>
+        <ul>
+          <!--Project: Cupcake-->
+          <li><a href="https://github.com/amcgladd/cupcake-shop">Cupcake Shop</a></li>
+          <p>A website for a cupcake shop showcasing CSS classes</p>
 
-      <!--Project: Iceland-->
-      <li><a href="https://github.com/amcgladd/iceland">Iceland</a></li>
-      <p>A website about Iceland making use of Bootstrap grid capacities</p>
+          <!--Project: Iceland-->
+          <li><a href="https://github.com/amcgladd/iceland">Iceland</a></li>
+          <p>A website about Iceland making use of Bootstrap grid capacities</p>
 
-      <!--Project: Boring lecture-->
-      <li><a href="https://github.com/amcgladd/boring-lecture">Boring Lecture</a></li>
-      <p>An website for an online lecture which makes use of basic HTML structure</p>
+          <!--Project: Boring lecture-->
+          <li><a href="https://github.com/amcgladd/boring-lecture">Boring Lecture</a></li>
+          <p>An website for an online lecture which makes use of basic HTML structure</p>
 
-      <!--Project: Whitney Houston-->
-      <li><a href="https://github.com/amcgladd/whitney">Whitney Houston</a></li>
-      <p>A fan page for Whitney Houston which makes use of divs and floats</p>
-    </ul>
+          <!--Project: Whitney Houston-->
+          <li><a href="https://github.com/amcgladd/whitney">Whitney Houston</a></li>
+          <p>A fan page for Whitney Houston which makes use of divs and floats</p>
+        </ul>
+      </div>
+    </div><!--End of Projects Section-->
 
     <!--About Me Section-->
-    <h2>About Me</h2>
-    <h3>Education</h3>
-    <ol>
-      <li>Bachelor's Degree: Media Communications</li>
-      <li>Master's Degree: Applied Linguistics</li>
-    </ol>
-    <h3>Job Experience</h3>
-    <ol>
-      <li>Custodian: Jim Elliot Christian High School</li>
-      <li>English Instructor: San Diego State University</li>
-      <li>EdTech Coordinator: Zayed University, Dubai</li>
-    </ol>
-    <h3>Hobbies</h3>
-    <ul>
-      <li>Digital Illustration</li>
-      <li>Drone Photography</li>
-      <li>Video Editing</li>
-    </ul>
-    <p></p>
+    <div class="card">
+      <div class="card-body">
+        <h2>About Me</h2>
+
+        <!--Row to encapsulate Education, Experience, and Hobbies-->
+        <div class="row">
+          <div class="col-md-4">
+
+            <!--Education Column-->
+            <h3>Education</h3>
+            <ol>
+              <li>Bachelor's Degree: Media Communications</li>
+              <li>Master's Degree: Applied Linguistics</li>
+            </ol>
+          </div><!--End of Education column col-->
+
+          <!--Experience Column-->
+          <div class="col-md-4">
+            <h3>Experience</h3>
+            <ol>
+              <li>Custodian: Jim Elliot Christian High School</li>
+              <li>English Instructor: San Diego State University</li>
+              <li>EdTech Coordinator: Zayed University, Dubai</li>
+            </ol>
+          </div><!--End of Experience col-->
+
+          <!--Hobbies Column-->
+          <div class="col-md-4">
+            <h3>Hobbies</h3>
+            <ul>
+              <li>Digital Illustration</li>
+              <li>Drone Photography</li>
+              <li>Video Editing</li>
+              </ul>
+          </div><!--End of Hobbies col-->
+        </div><!--End of row-->
+      </div><!--End of card-body-->
+    </div><!--End of About me Section-->
+
+
 
   </body>
 </html>
