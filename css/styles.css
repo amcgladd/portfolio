@@ -2,6 +2,7 @@
   height: 140px;
   padding: 20px;
   white-space: nowrap;
+  padding-left: 100px;
 }
 
 #headertext {
@@ -18,4 +19,8 @@
 
 .jobtitle {
   color: red;
+}
+
+.container {
+  margin-top: 20px;
 }
